@@ -851,16 +851,15 @@
     const appId = typeof __app_id !== 'undefined' ? __app_id : 'aitc-platform';
     
     // Fallback resilient configuration
-    const firebaseConfig = typeof __firebase_config !== 'undefined' 
-      ? JSON.parse(__firebase_config) 
-      : {
-          apiKey: "demo-api-key",
-          authDomain: "aitc-platform.firebaseapp.com",
-          projectId: "aitc-platform",
-          storageBucket: "aitc-platform.appspot.com",
-          messagingSenderId: "1234567890",
-          appId: "1:1234567890:web:abcdef123456"
-        };
+    const firebaseConfig = {
+  apiKey: "AIzaSyDVJzRWx3w4PrVmzyXOOz3ll_3IcQFnlKE",
+  authDomain: "nai2-d3db3.firebaseapp.com",
+  projectId: "nai2-d3db3",
+  storageBucket: "nai2-d3db3.firebasestorage.app",
+  messagingSenderId: "528108845360",
+  appId: "1:528108845360:web:934cfb8716726cb26d70f5",
+  measurementId: "G-G6VFMWSMLN"
+};
 
     let app;
     let auth;
